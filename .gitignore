@@ -1,0 +1,50 @@
+# Word-Dateien (werden aus MD generiert)
+*.docx
+
+# Pandoc temporäre Dateien
+*.tmp
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+venv/
+env/
+
+# Node.js (falls React Native / PWA)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build-Outputs
+build/
+dist/
+*.apk
+*.ipa
+*.aab
+
+# Datenbanken (lokale Test-DBs)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Secrets
+.env
+config/secrets.json
